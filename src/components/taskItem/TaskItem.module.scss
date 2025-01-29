@@ -1,0 +1,105 @@
+.root {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  padding-bottom: 10px;
+
+  .name {
+    width: 100px;
+    height: 20px;
+    border-radius: 4px;
+    background-color: #973fcf;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 14.52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+    position: relative;
+    top: -10px;
+  }
+  .top {
+    .circle {
+      font-size: 14.93px;
+      font-weight: 800;
+      line-height: 18.07px;
+      letter-spacing: -0.07em;
+      text-align: left;
+      display: flex;
+      justify-content: end;
+      margin: 0px 14px 4px 0px;
+    }
+  }
+
+  .main {
+    display: flex;
+    margin-left: 14px;
+
+    h2 {
+      font-size: 16.8px;
+      font-weight: 600;
+      color: #0d062d;
+      line-height: 20.33px;
+      text-align: left;
+      margin-bottom: 9px;
+    }
+    p {
+      font-size: 12px;
+      font-weight: 400;
+      color: #787486;
+      line-height: 14.52px;
+      text-align: left;
+      margin-bottom: 20px;
+    }
+
+    .badge {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 26px;
+
+      .priority {
+        width: fit-content;
+        height: 16px;
+        border-radius: 4px;
+        background-color: #83c29d33;
+        color: #68b266;
+        font-size: 10px;
+        font-weight: 600;
+        line-height: 12.1px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &.low {
+          background-color: #ffa50026;
+          color: #ffa500;
+        }
+
+        &.high {
+          background-color: #ff6c6529;
+          color: #ff6c65;
+        }
+      }
+    }
+  }
+  .footer {
+    margin-left: 14px;
+    display: flex;
+    justify-content: space-between;
+    .info {
+      display: flex;
+      justify-content: space-between;
+      gap: 14px;
+      align-items: end;
+    }
+    .footers {
+      display: flex;
+      gap: 5px;
+      font-size: 11.2px;
+      font-weight: 500;
+      line-height: 13.55px;
+      color: #787486;
+    }
+  }
+}
